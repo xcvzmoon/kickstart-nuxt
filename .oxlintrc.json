@@ -1,7 +1,7 @@
 {
   "plugins": ["import", "promise", "unicorn", "oxc", "typescript", "vue", "eslint"],
   "rules": {
-    "no-console": ["error", { "allow": ["info", "warn", "error"] }],
+    "no-console": ["error", { "allow": ["info", "warn", "error", "table"] }],
     "no-empty": "error",
     "no-eq-null": "error",
     "no-await-in-loop": "error",
