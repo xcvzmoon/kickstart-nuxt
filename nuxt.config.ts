@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@vueuse/nuxt'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@vueuse/nuxt', '@nuxt/hints'],
   colorMode: {
     preference: 'dark',
     fallback: 'dark',
