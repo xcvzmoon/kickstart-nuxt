@@ -30,10 +30,7 @@ const thumbClass = computed(
 </script>
 
 <template>
-  <ScrollAreaRoot
-    v-bind="delegatedProps"
-    :class="['relative overflow-hidden', props.class]"
-  >
+  <ScrollAreaRoot v-bind="delegatedProps" :class="['relative overflow-hidden', props.class]">
     <ScrollAreaViewport class="size-full rounded-[inherit]">
       <slot />
     </ScrollAreaViewport>
