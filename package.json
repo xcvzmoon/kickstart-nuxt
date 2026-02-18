@@ -21,29 +21,29 @@
     "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.86",
+    "@iconify-json/lucide": "^1.2.91",
     "@nuxt/hints": "1.0.0-alpha.4",
     "@nuxt/ui": "4.2.1",
-    "@vueuse/core": "^14.1.0",
-    "@vueuse/nuxt": "^14.1.0",
-    "nuxt": "^4.3.0",
-    "vue": "^3.5.27",
+    "@vueuse/core": "^14.2.1",
+    "@vueuse/nuxt": "^14.2.1",
+    "nuxt": "^4.3.1",
+    "vue": "^3.5.28",
     "vue-router": "^4.6.4",
     "zod": "^4.3.6"
   },
   "devDependencies": {
     "@nuxt/test-utils": "^3.23.0",
-    "@playwright/test": "^1.58.0",
+    "@playwright/test": "^1.58.2",
     "@vitest/coverage-v8": "^4.0.18",
     "@vue/test-utils": "^2.4.6",
-    "happy-dom": "^20.3.7",
+    "happy-dom": "^20.6.2",
     "oxfmt": "^0.26.0",
-    "oxlint": "^1.41.0",
-    "oxlint-tsgolint": "^0.11.1",
-    "playwright-core": "^1.58.0",
+    "oxlint": "^1.48.0",
+    "oxlint-tsgolint": "^0.11.5",
+    "playwright-core": "^1.58.2",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18",
-    "vue-tsc": "^3.2.3"
+    "vue-tsc": "^3.2.4"
   },
   "packageManager": "pnpm@10.28.1",
   "pnpm": {
