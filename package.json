@@ -12,6 +12,7 @@
     "format": "oxfmt && oxfmt --check",
     "lint": "oxlint",
     "typecheck": "nuxt typecheck",
+    "prepare": "husky",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest --coverage",
@@ -37,6 +38,8 @@
     "@vitest/coverage-v8": "^4.1.0",
     "@vue/test-utils": "^2.4.6",
     "happy-dom": "^20.8.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "oxfmt": "^0.41.0",
     "oxlint": "^1.56.0",
     "oxlint-tsgolint": "^0.17.1",
@@ -44,6 +47,10 @@
     "typescript": "^5.9.3",
     "vitest": "^4.1.0",
     "vue-tsc": "^3.2.6"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs,html,css,yml}": "oxfmt",
+    "*.{js,jsx,ts,tsx,mjs,cjs}": "oxlint"
   },
   "packageManager": "pnpm@10.32.1",
   "pnpm": {
