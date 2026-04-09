@@ -239,7 +239,7 @@
     "prefer-find": "error",
     "prefer-for-of": "error",
     "prefer-function-type": "error",
-    "prefer-import-from": "error",
+    "prefer-import-from-vue": "error",
     "prefer-includes": "error",
     "prefer-keyboard-event-key": "error",
     "prefer-literal-enum-member": "error",
