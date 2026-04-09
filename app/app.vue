@@ -5,10 +5,8 @@
     htmlAttrs: { lang: 'en' },
   });
 
-
   const title = 'Kickstart Nuxt';
   const description = 'My nuxt starter template.';
-
 
   useSeoMeta({
     title,
