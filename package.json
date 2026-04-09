@@ -52,7 +52,7 @@
     "*.{js,jsx,ts,tsx,mjs,cjs,html,css,yml}": "oxfmt",
     "*.{js,jsx,ts,tsx,mjs,cjs}": "oxlint"
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.0",
   "pnpm": {
     "overrides": {
       "vite": "npm:rolldown-vite@latest"
