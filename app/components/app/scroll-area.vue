@@ -15,9 +15,7 @@
     color?: 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'error' | 'neutral';
   };
 
-
   const props = defineProps<Props>();
-
 
   const delegatedProps = computed(() => {
     const { class: _, mount: __, ...delegated } = props;
