@@ -125,7 +125,9 @@ Repository guidance for coding agents working in `kickstart-nuxt`.
 
 ## Naming Conventions
 
-- Vue component filenames: PascalCase when the file is a reusable component.
+- Vue component filenames: kebab-case when the file is a reusable component.
+- Vue composable filenames: kebab-case starting with `use-`, e.g. `use-scroll.ts`.
+- Vue store filenames: kebab-case
 - Test filenames: `*.test.ts` or `*.spec.ts` matching the directory conventions already in use.
 - Variables and functions: `camelCase`.
 - Type aliases and component names: `PascalCase`.
@@ -143,6 +145,11 @@ Repository guidance for coding agents working in `kickstart-nuxt`.
 
 ## Testing Conventions
 
+- Prefer unit tests for services and helpers.
+- Add integration tests only when the boundary matters.
+- Keep integration tests explicit about required env or infrastructure.
+- Name tests after observable behavior, not implementation details.
+- Keep regression tests focused on one bug or behavior.
 - Use Vitest for unit and Nuxt runtime/component coverage.
 - Use `@nuxt/test-utils/runtime` helpers such as `mountSuspended` for Nuxt-aware component tests.
 - Use Playwright for browser/e2e checks.
@@ -165,3 +172,21 @@ Repository guidance for coding agents working in `kickstart-nuxt`.
 - Do not commit generated Nuxt or coverage artifacts.
 - Do not bypass `pnpm`; repository scripts and dependency metadata assume it.
 - Do not introduce inconsistent naming or switch between type styles arbitrarily inside the same file.
+
+## Editing Guidance
+
+- Make the smallest correct change.
+- Do not polish unrelated code.
+- Do not remove correct comments or documentation.
+- Do not rename broad parts of the codebase unless required.
+- Do not expand a change into a repo-wide refactor unless necessary.
+- Prefer leaving correct existing code in place.
+- When touching production-sensitive code, prioritize reliability over clever abstractions.
+
+## Before Finishing
+
+- Run `pnpm run fmt` if you changed formatting significantly.
+- Run `pnpm run lint` or at least targeted `oxlint` on touched files.
+- Run targeted tests when tests exist.
+- For runtime-sensitive changes, prefer a narrow smoke check over broad refactors.
+- If you changed build or runtime behavior, ensure `pnpm run build` still works.
