@@ -49,7 +49,7 @@
     "vue-tsc": "^3.2.6"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs,html,css,yml}": "oxfmt",
+    "*.{js,jsx,ts,tsx,mjs,cjs,html,css,yml,yaml}": "oxfmt",
     "*.{js,jsx,ts,tsx,mjs,cjs}": "oxlint"
   },
   "packageManager": "pnpm@10.33.0",
