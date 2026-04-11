@@ -4,11 +4,9 @@ export default defineAppConfig({
       primary: 'purple',
       neutral: 'zinc',
     },
-
     icons: {
       loading: 'i-lucide-loader',
     },
-
     button: {
       slots: {
         base: ['cursor-pointer'],
