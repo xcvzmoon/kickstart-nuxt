@@ -20,7 +20,6 @@
     "ban-types": "error",
     "block-scoped-var": "error",
     "branches-sharing-code": "error",
-    "capitalized-comments": "error",
     "catch-error-name": "error",
     "catch-or-return": "error",
     "class-literal-property-style": "error",
@@ -85,7 +84,12 @@
     "no-callback-in-promise": "error",
     "no-case-declarations": "error",
     "no-confusing-non-null-assertion": "error",
-    "no-console": "error",
+    "no-console": [
+      "error",
+      {
+        "allow": ["error"]
+      }
+    ],
     "no-console-spaces": "error",
     "no-const-enum": "error",
     "no-constructor-return": "error",
@@ -113,7 +117,6 @@
     "no-import-compiler-macros": "error",
     "no-import-type-side-effects": "error",
     "no-inferrable-types": "error",
-    "no-inline-comments": "error",
     "no-inner-declarations": "error",
     "no-instanceof-array": "error",
     "no-instanceof-builtins": "error",
