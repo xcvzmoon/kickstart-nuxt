@@ -1,5 +1,9 @@
 <template>
-  <main class="min-h-svh">
+  <AppScrollArea
+    as="main"
+    mount="both"
+    class="h-svh w-svw"
+  >
     <NuxtPage />
-  </main>
+  </AppScrollArea>
 </template>
