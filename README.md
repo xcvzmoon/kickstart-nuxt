@@ -1,6 +1,6 @@
 # Kickstart Nuxt
 
-[![CI](https://github.com/xcvzmoon/kickstart-nuxt/actions/workflows/ci.yml/badge.svg)](https://github.com/xcvzmoon/kickstart-nuxt/actions/workflows/ci.yml)
+[![CI](https://github.com/xcvzmoon/kickstart-nuxt/actions/workflows/ci.yaml/badge.svg)](https://github.com/xcvzmoon/kickstart-nuxt/actions/workflows/ci.yaml)
 
 This is my personal Nuxt starter template for quickly bootstrapping new Nuxt.js projects.
 
