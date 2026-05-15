@@ -58,5 +58,5 @@
     "*.{js,jsx,ts,tsx,mjs,cjs,html,css,yml,yaml}": "oxfmt",
     "*.{js,jsx,ts,tsx,mjs,cjs}": "oxlint"
   },
-  "packageManager": "pnpm@11.1.1"
+  "packageManager": "pnpm@11.1.2"
 }
