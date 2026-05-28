@@ -27,13 +27,13 @@
     "release:dry": "changelogen --dry"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.108",
+    "@iconify-json/lucide": "^1.2.109",
     "@nuxt/hints": "1.1.2",
-    "@nuxt/ui": "4.7.1",
+    "@nuxt/ui": "4.8.0",
     "@vueuse/core": "^14.3.0",
     "@vueuse/nuxt": "^14.3.0",
     "nuxt": "^4.4.6",
-    "vue": "^3.5.34",
+    "vue": "^3.5.35",
     "vue-router": "^5.0.7",
     "zod": "^4.4.3"
   },
@@ -46,13 +46,13 @@
     "happy-dom": "^20.9.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.5",
-    "oxfmt": "^0.51.0",
-    "oxlint": "^1.66.0",
+    "oxfmt": "^0.52.0",
+    "oxlint": "^1.67.0",
     "oxlint-tsgolint": "^0.23.0",
     "playwright-core": "^1.60.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.7",
-    "vue-tsc": "^3.3.1"
+    "vue-tsc": "^3.3.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs,html,css,yml,yaml}": "oxfmt",
