@@ -40,18 +40,18 @@
   "devDependencies": {
     "@nuxt/test-utils": "^4.0.3",
     "@playwright/test": "^1.60.0",
-    "@vitest/coverage-v8": "^4.1.7",
+    "@vitest/coverage-v8": "^4.1.8",
     "@vue/test-utils": "^2.4.10",
     "changelogen": "^0.6.2",
     "happy-dom": "^20.9.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.6",
+    "lint-staged": "^17.0.7",
     "oxfmt": "^0.52.0",
     "oxlint": "^1.67.0",
     "oxlint-tsgolint": "^0.23.0",
     "playwright-core": "^1.60.0",
     "typescript": "^6.0.3",
-    "vitest": "^4.1.7",
+    "vitest": "^4.1.8",
     "vue-tsc": "^3.3.3"
   },
   "lint-staged": {
