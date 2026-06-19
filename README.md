@@ -19,22 +19,22 @@ This is my personal Nuxt starter template for quickly bootstrapping new Nuxt.js 
 Recommended with pnpm:
 
 ```bash
-pnpm dlx giget@latest gh:xcvzmoon/kickstart-nuxt my-app --install
+pnx giget@latest gh:xcvzmoon/kickstart-nuxt my-app --install
 ```
 
 If you prefer to install dependencies yourself after scaffolding:
 
 ```bash
-pnpm dlx giget@latest gh:xcvzmoon/kickstart-nuxt my-app
+pnx giget@latest gh:xcvzmoon/kickstart-nuxt my-app
 cd my-app
-pnpm install
+pn install
 ```
 
 ## Package Manager Support
 
 This template is configured for `pnpm` first.
 
-- `packageManager` in `package.json` is pinned to `pnpm@10.32.1`.
+- `packageManager` in `package.json` is pinned to `pnpm@11.8.0`.
 - Day-to-day commands in the repo use `pnpm`.
 - Husky, `lint-staged`, lockfile behavior, and agent docs are all written with `pnpm` in mind.
 - This repo was initially set up with `pnpm`, and some checked-in files contain `pnpm`-specific configuration.
@@ -49,7 +49,7 @@ Other package managers can still work for local development, but treat them as b
 ### pnpm
 
 ```bash
-pnpm install
+pn install
 ```
 
 ### Bun
@@ -73,16 +73,16 @@ yarn install
 ## Common Commands
 
 ```bash
-pnpm dev
-pnpm build
-pnpm preview
-pnpm lint
-pnpm typecheck
-pnpm test
-pnpm test:unit
-pnpm test:nuxt
-pnpm test:e2e
-pnpm test:e2e:ui
+pn dev
+pn build
+pn preview
+pn lint
+pn typecheck
+pn test
+pn test:unit
+pn test:nuxt
+pn test:e2e
+pn test:e2e:ui
 ```
 
 ## Important Notes For Non-pnpm Users
