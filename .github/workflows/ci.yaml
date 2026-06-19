@@ -1,4 +1,4 @@
-name: CI
+name: CI (Format, Lint, Typecheck, and Build)
 
 on: push
 
@@ -26,14 +26,14 @@ jobs:
       - name: Install dependencies
         run: pn ci
 
-      - name: Format
+      - name: Format Files
         run: pn fmt
 
-      - name: Lint
+      - name: Lint Files
         run: pn lint
 
-      - name: Typecheck
+      - name: Typecheck Files
         run: pn typecheck
 
-      - name: Build
+      - name: Build Application
         run: pn build
