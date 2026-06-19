@@ -24,13 +24,16 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: pn ci
+
+      - name: Format
+        run: pn fmt
 
       - name: Lint
-        run: pnpm lint
+        run: pn lint
 
       - name: Typecheck
-        run: pnpm typecheck
+        run: pn typecheck
 
       - name: Build
-        run: pnpm build
+        run: pn build
