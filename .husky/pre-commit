@@ -1,1 +1,4 @@
-# pnpm test
+pn fmt
+pn lint
+pn typecheck
+# pn test
